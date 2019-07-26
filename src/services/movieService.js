@@ -3,7 +3,7 @@ import http from "./httpService";
 const apiEndpoint = `/movies`;
 
 function movieUrl(id) {
-  return `/${id}`;
+  return `/movies/${id}`;
 }
 
 export function getMovies() {
